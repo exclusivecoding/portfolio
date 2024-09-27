@@ -10,6 +10,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    over-flow-x:hidden;
 }
 
 a {
@@ -41,6 +42,7 @@ header .container {
 header .logo a {
     font-size: 1.5rem;
     font-weight: 600;
+    font-family:'Brush Script MT', cursive;
 }
 
 header nav ul {
