@@ -154,6 +154,8 @@ header nav ul li a {
     width:auto;
     height:auto;
     margin-right:10px;
+    mix-blend-mode:difference;
+    border-radius:10%;
 }
 /* Footer */
 footer {
