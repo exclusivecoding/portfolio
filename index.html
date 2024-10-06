@@ -12,12 +12,14 @@
 </head>
 <body>
     <!-- Header -->
-     <header id="header">
+    <header id="header">
         <div class="container">
             <h1 class="logo"><a href="#">Tejas</a></h1>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -27,13 +29,30 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="container">
-            <h2>Hi, I'm Tejas Prajapati</h2>
+    <div class="container hero-content">
+
+        <div class="image-content">
+            <img src="tejas.png" alt="Tejas Prajapati" class="profile-image">
+        </div>
+        <div class="text-content">
+            <h2 class="animated-text">Hi, I'm Tejas Prajapati</h2>
             <p>A Computer Engineer | Enthusiast in Machine Learning, AI, and Data Science | A Business Man</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
+    </div>
+</section>
+<!--
+    <section id="hero">
+        <div class="container">
+            <h2 class="animated-text">Hi, I'm Tejas Prajapati</h2>
+            <p class="animated-text"></p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="image-content">
+            <img src="tejas.png" alt="Tejas Prajapati" class="profile-image">
+        </div>
     </section>
-
+-->
     <!-- About Section -->
     <section id="about">
         <div class="container">
@@ -46,20 +65,72 @@ I thrive on solving complex challenges and building innovative solutions, with h
 I am constantly eager to expand my knowledge, collaborate on exciting projects, and contribute to the advancement of AI-driven technologies.</p>
         </div>
     </section>
+    <!-- Certificates and Experience Section -->
+    <section id="certificates">
+    <div class="container">
+        <h2>Professional Certificates</h2>
+        <div class="certificate-grid">
+            <div class="certificate-card">
+                <img src="isro.png" alt="Certificate 1">
+                <h3>AI/ML GeoData Analysis IIRS-ISRO Certificate</h3>
+            </div>
+            <div class="certificate-card">
+                <img src="dataquest.png" alt="Certificate 2">
+                <h3>Introduction to Python Programming for Data Science by DataQuest.io</h3>
+            </div>
+            <div class="certificate-card">
+                <img src="hackerrank.png" alt="Certificate 3">
+                <h3>Python(basic) HackerRank </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+               <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+            <div class="experience-card">
+                <img src="comingsoon.jpg" alt="Company 1 Logo">
+                <h3>Machine Learning Intern</h3>
+                <p>Unified Mentor – Gurugram, Haryana [Remote] || 09/2024 – 10/2024</p>
+            </div>
+            <div class="experience-card">
+                <img src="codsoft.png" alt="Company 2 Logo">
+                <h3>Machine Learning Intern</h3>
+                <p>CodSoft – Kolkata [Remote] || 05/2024 – 06/2024</p>
+            </div>
+            <div class="experience-card">
+                <img src="grass_certificate.png" alt="Company 3 Logo">
+                <h3>Data Science Internship</h3>
+                <p>Grras solution – Ahmedabad || 04/2023 – 02/2024</p>
+            </div>
+              <div class="experience-card">
+              <!--  <img src="grass_certificate.png" alt="Company 3 Logo">-->
+                <h3>Data Analyst</h3>
+                <p>Lineal Services Ltd – Ahmedabad </p>
+                  <p>03/2020 – 08/2020</p>
+                  <p>Data Cleaning, Electronic Discovery</p>
+            </div>
+
+        </div>
+    </section>
+
 
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
             <h2>My Projects</h2>
             <div class="project-grid">
+
                 <div class="project-card">
                     <img src="heart_disease.png" alt="Project 1">
                     <h3>Heart Disease</h3>
                     <p>The heart disease prediction model aims to accurately identify individuals at risk by analyzing key health indicators such as age, cholesterol levels, and chest pain type.
                         By utilizing machine learning algorithms like Logistic Regression, Random Forest, and XGBoost, the model offers a reliable tool for early detection, potentially aiding in timely medical intervention and improving patient outcomes.
                         Further optimization and validation can enhance the model's performance, making it a valuable asset in predictive healthcare.
-                        <a href="https://github.com/exclusivecoding/UnifiedMentor/tree/main/HeartDisease" target="_blank">View on GitHub</a>
-                    </p>
+                        <a href="https://github.com/exclusivecoding/UnifiedMentor/tree/main/HeartDisease" target="_blank">View on GitHub</a></p>
                 </div>
                 <div class="project-card">
                     <img src="movie.png" alt="Project 2">
@@ -123,13 +194,19 @@ I am constantly eager to expand my knowledge, collaborate on exciting projects, 
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <img src="logo.png" alt="Logo" class="contact-logo">
+           <!-- <img src="logo.png" alt="Logo" class="contact-logo"> -->
+            <div class="logo-container">
+                <video autoplay loop muted class="contact-logo">
+                    <source src="animatedlogo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
             <h2>Contact Me</h2>
             <p>Email me at: <a href="mailto:tejasprajapati283@gmail.com">tejasprajapati283@gmail.com</a></p>
             <div class="social-icons">
-                <a href="https://github.com/exclusivecoding"><i class="fab fa-github"></i></a>
-                <a href="https://in.linkedin.com/in/tejas-prajapati-66290111b"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/tejasss.prajapati/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/exclusivecoding" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://in.linkedin.com/in/tejas-prajapati-66290111b" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/tejasss.prajapati/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </section>
